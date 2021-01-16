@@ -11,6 +11,9 @@ public class Calculator {
         return a - b;
     }
 
+    public int product(int a, int b) { return a * b;
+    }
+
     @SuppressWarnings("IntegerDivisionInFloatingPointContext")
     public double division(int a, int b) {
         return a / b;

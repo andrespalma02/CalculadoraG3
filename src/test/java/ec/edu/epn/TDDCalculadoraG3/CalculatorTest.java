@@ -31,9 +31,15 @@ public class CalculatorTest {
         assertEquals(7, c.subtraction(10, 3));
     }
 
+    @Test
+    public void given_two_integers_when_product_then_ok() {
+        System.out.println("Test 3");
+        assertEquals(20, c.product(4, 5));
+    }
+
     @Test(expected = ArithmeticException.class)
     public void given_two_integers_when_division_then_exception() {
-        System.out.println("Test 3");
+        System.out.println("Test 4");
         assertEquals(1, c.division(1, 0),0);
     }
 

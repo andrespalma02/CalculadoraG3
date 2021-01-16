@@ -13,6 +13,11 @@ public class CalculatorExecute {
         System.out.println("El resultado de llamar al metodo subtraction con parametros " +
                 "7 y 1 retorna " + subtraction);
 
+        int product = c.product(4,5);
+        System.out.println("El resultado de llamar al metodo product con parametros " +
+                "4 y 5 retorna " + product);
+
+
         System.out.println("== It is a change !! ==");
 
     }
