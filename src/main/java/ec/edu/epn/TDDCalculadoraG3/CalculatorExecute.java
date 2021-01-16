@@ -6,10 +6,12 @@ public class CalculatorExecute {
 
         Calculator c = new Calculator();
         int addition = c.addition(4,7);
-        System.out.println("c.addition(4,7) = " + addition);
+        System.out.println("El resultado de llamar al metodo addition con parametros " +
+                "4 y 7 retorna " + addition);
 
         int subtraction = c.subtraction(7,1);
-        System.out.println("c.subtraction(7,1) = " + subtraction);
+        System.out.println("El resultado de llamar al metodo subtraction con parametros " +
+                "7 y 1 retorna " + subtraction);
 
         System.out.println("== It is a change !! ==");
 
